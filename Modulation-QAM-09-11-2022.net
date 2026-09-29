@@ -1,0 +1,27 @@
+* C:\Users\jeanp\Documents\Dossier IUT-RT-2026-2027\BUT2\R305\TP6-2024\Fichier de simulation\Modulation-QAM-09-11-2022.asc
+XU1 Data Clk NC_01 NC_02 NC_03 NC_04 N012 N009 N008 N007 N006 N003 N002 N001 ModNum-QAM-16
+XU2 N006 N003 N002 N001 V_Q CNA-QAM-16
+XU3 N012 N009 N008 N007 V_I CNA-QAM-16
+XU4 Data Clk prbg Tb=8u Nsort=12
+XU5 V_Q N005 N004 mult0 K=1
+XU6 V_I N011 N010 mult0 K=1
+V1 N005 0 SINE(0 1 125Meg 0 0)
+V2 N011 0 SINE(0 1 125Meg 0 0 90)
+XU7 N004 N010 V_QAM16 sum1
+XU8 V_Transmis V_Canal C-MultiTrajet-6-2 LdB=0.2 A0=1 A1=0.79433 A2=0.5 A3=0.25119 A4=0.19952 A5=0.07943 Tp=3300n T0=0n T1=500n T2=700n T3=1500n T4=2100n T5=4700n
+XU12 V_QAM16 V_Transmis gain G=1.5
+R2 V_QAM16 0 50
+.lib SP.lib
+.lib Mylib/Digital/ModNum-QAM-16.cir
+.lib Mylib/Digital/CNA-QAM-16.cir
+.tran 1000u
+* Modulateur Numérique
+* Convertisseur Numérique/Analogique
+* Mélangeur Analogique
+* Modulateur QAM-16
+.lib Mylib/Telecom/Canal/C-MultiTrajet-6-2.cir
+* Source Data
+* Canal de transmission
+* Antenne Emission
+.backanno
+.end

@@ -1,0 +1,116 @@
+Circuit: * C:\Users\jeanp\Documents\Dossier IUT-RT-2026-2027\BUT2\R305\TP6-2024\Fichier de simulation\Modulation-QAM-09-11-2022.asc
+
+Questionable use of curly braces in "b1 1 0  v=rand({{time+{tb}/2}/{tb}}+{{nsort}})>0.5"
+    Error: undefined symbol in: "([time]+(tb)/2)/(tb)"
+Questionable use of curly braces in "b1 1 0  v=rand(({time+{tb}/2}/{tb})+{{nsort}})>0.5"
+    Error: undefined symbol in: "[time]+(tb)/2"
+WARNING: Less than two connections to node U1:NC_01.  This node is used by B:U1:U2:U2:1.
+WARNING: Less than two connections to node U1:NC_02.  This node is used by B:U1:U4:U2:1.
+WARNING: Less than two connections to node U1:NC_03.  This node is used by B:U1:U5:U2:1.
+WARNING: Less than two connections to node U1:NC_04.  This node is used by B:U1:U6:U2:1.
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u3:1)
+Ignoring empty pin current: Ix(u3:2)
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+Ignoring empty pin current: Ix(u7:1)
+Ignoring empty pin current: Ix(u7:2)
+Ignoring empty pin current: Ix(u9:1)
+Ignoring empty pin current: Ix(u9:2)
+Ignoring empty pin current: Ix(u11:1)
+Ignoring empty pin current: Ix(u11:2)
+Ignoring empty pin current: Ix(u13:1)
+Ignoring empty pin current: Ix(u13:2)
+Ignoring empty pin current: Ix(u13:3)
+Ignoring empty pin current: Ix(u13:4)
+Ignoring empty pin current: Ix(u14:1)
+Ignoring empty pin current: Ix(u14:2)
+Ignoring empty pin current: Ix(u14:3)
+Ignoring empty pin current: Ix(u14:4)
+Ignoring empty pin current: Ix(u15:1)
+Ignoring empty pin current: Ix(u15:2)
+Ignoring empty pin current: Ix(u15:3)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u4:1)
+Ignoring empty pin current: Ix(u4:2)
+Ignoring empty pin current: Ix(u4:3)
+Ignoring empty pin current: Ix(u6:1)
+Ignoring empty pin current: Ix(u6:2)
+Ignoring empty pin current: Ix(u6:3)
+Ignoring empty pin current: Ix(u8:d)
+Ignoring empty pin current: Ix(u8:clk)
+Ignoring empty pin current: Ix(u8:q)
+Ignoring empty pin current: Ix(u8:q_)
+Ignoring empty pin current: Ix(u10:d)
+Ignoring empty pin current: Ix(u10:clk)
+Ignoring empty pin current: Ix(u10:q)
+Ignoring empty pin current: Ix(u10:q_)
+Ignoring empty pin current: Ix(u12:d)
+Ignoring empty pin current: Ix(u12:clk)
+Ignoring empty pin current: Ix(u12:q)
+Ignoring empty pin current: Ix(u12:q_)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u3:1)
+Ignoring empty pin current: Ix(u3:2)
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+Ignoring empty pin current: Ix(u7:1)
+Ignoring empty pin current: Ix(u7:2)
+Ignoring empty pin current: Ix(u9:1)
+Ignoring empty pin current: Ix(u9:2)
+Ignoring empty pin current: Ix(u11:1)
+Ignoring empty pin current: Ix(u11:2)
+Ignoring empty pin current: Ix(u13:1)
+Ignoring empty pin current: Ix(u13:2)
+Ignoring empty pin current: Ix(u13:3)
+Ignoring empty pin current: Ix(u13:4)
+Ignoring empty pin current: Ix(u14:1)
+Ignoring empty pin current: Ix(u14:2)
+Ignoring empty pin current: Ix(u14:3)
+Ignoring empty pin current: Ix(u14:4)
+Ignoring empty pin current: Ix(u15:1)
+Ignoring empty pin current: Ix(u15:2)
+Ignoring empty pin current: Ix(u15:3)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u4:1)
+Ignoring empty pin current: Ix(u4:2)
+Ignoring empty pin current: Ix(u4:3)
+Ignoring empty pin current: Ix(u6:1)
+Ignoring empty pin current: Ix(u6:2)
+Ignoring empty pin current: Ix(u6:3)
+Ignoring empty pin current: Ix(u8:d)
+Ignoring empty pin current: Ix(u8:clk)
+Ignoring empty pin current: Ix(u8:q)
+Ignoring empty pin current: Ix(u8:q_)
+Ignoring empty pin current: Ix(u10:d)
+Ignoring empty pin current: Ix(u10:clk)
+Ignoring empty pin current: Ix(u10:q)
+Ignoring empty pin current: Ix(u10:q_)
+Ignoring empty pin current: Ix(u12:d)
+Ignoring empty pin current: Ix(u12:clk)
+Ignoring empty pin current: Ix(u12:q)
+Ignoring empty pin current: Ix(u12:q_)
+
+Date: Mon Sep 21 11:47:11 2026
+Total elapsed time: 2057.014 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 15751446
+traniter = 15751441
+tranpoints = 7875378
+accept = 4501877
+rejected = 3373501
+matrix size = 325
+fillins = 76
+solver = Normal
+Thread vector: 26.0/12.8[5] 4.3/2.3[5] 11.9/4.5[5] 1.9/2.9[1]  2592/500
+Matrix Compiler1: 12.32 KB object code size  5.8/3.6/[1.7]
+Matrix Compiler2: 19.72 KB object code size  2.8/6.7/[2.0]
+
